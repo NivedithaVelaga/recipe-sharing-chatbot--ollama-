@@ -1,17 +1,17 @@
-# Recipe Sharing Platform
+# Recipe Sharing ChatBot using Ollama
 
 A full-stack recipe sharing application built with React, TypeScript, Node.js, Express, and SQLite.
 
 ## Features
 
-- 🔐 User authentication (register/login)
-- 📝 Create, edit, and delete recipes
-- 🖼️ Image upload for recipes
-- ❤️ Save/unsave recipes to favorites
-- 👤 User profiles with recipe management
-- 🔍 Browse and search recipes
-- ⭐ Rate and comment on recipes
-- 📱 Responsive design
+- User authentication (register/login)
+- Create, edit, and delete recipes
+- Image upload for recipes
+- Save/unsave recipes to favorites
+- User profiles with recipe management
+- Browse and search recipes
+- Rate and comment on recipes
+- Responsive design
 
 ## Quick Start
 
@@ -132,9 +132,6 @@ The application now uses WAL mode and proper connection management to prevent da
    - Set start command: `npm run server:start`
    - Add environment variables
 
-#### Netlify (Full-stack)
-- Use Netlify's full-stack deployment
-- Configure build settings for both frontend and backend
 
 ### Option 3: Share as Zip File
 1. **Create a clean version:**
@@ -163,9 +160,6 @@ RUN npm run build
 EXPOSE 3000 3001
 CMD ["npm", "run", "dev"]
 ```
-
-## Live Demo
-If you deploy the project, you can share the live URL with others.
 
 ## Contributing
 1. Fork the repository
